@@ -1,0 +1,10 @@
+.DS_Store
+.env
+.env.*
+config.js
+*.crx
+*notes*.json
+private/
+exports/
+dist/
+release/
