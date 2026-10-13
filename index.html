@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#fff9f7" />
+    <meta name="description" content="YouTube Digest Notes：在 YouTube 长视频中查看双语字幕、点词理解，并分类收藏生词与精彩表达。" />
+    <title>YouTube Digest Notes · 长视频英语学习</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Noto+Sans+SC:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    <script type="module" crossorigin src="./assets/index-BIEvK7PK.js"></script>
+    <link rel="stylesheet" crossorigin href="./assets/index-4_0tfC3s.css">
+  </head>
+  <body>
+    <div id="app">
+      <header class="site-header">
+        <a class="brand" href="#top" aria-label="回到页面顶部">
+          <span class="brand-mark" aria-hidden="true"><span></span><span></span><span></span></span>
+          <span class="brand-name" id="brand-name">YouTube Digest Notes</span>
+        </a>
+        <nav class="nav-links" aria-label="主导航">
+          <a href="#how">主要功能</a>
+          <a href="#demo">流程演示</a>
+          <button type="button" class="nav-github github-action">GitHub</button>
+        </nav>
+        <button type="button" class="menu-toggle" aria-expanded="false" aria-controls="mobile-nav" aria-label="打开菜单"><span></span><span></span></button>
+      </header>
+      <nav id="mobile-nav" class="mobile-nav" aria-label="手机导航" hidden>
+        <a href="#how">主要功能</a><a href="#demo">流程演示</a><button type="button" class="github-action">GitHub</button>
+      </nav>
+
+      <main id="top">
+        <section class="hero section-shell" aria-labelledby="hero-title">
+          <div class="hero-copy">
+            <h1 id="hero-title">YouTube 长视频，<br /><em>看懂，也记得住。</em></h1>
+            <p class="hero-lead">边看双语字幕，边点词理解；把生词和精彩表达分类收进 Notes。</p>
+            <div class="hero-actions"><button type="button" class="button button-primary github-action">查看 GitHub 项目</button><a class="button button-text" href="#demo">看看使用过程</a></div>
+          </div>
+          <div class="hero-visual">
+            <div class="studio-frame" id="hero-studio">
+              <div class="studio-canvas" id="hero-canvas" aria-hidden="true"></div>
+              <div class="scene-fallback" aria-hidden="true"><div class="fallback-sun"></div><div class="fallback-monitor"><div class="fallback-play">▶</div></div><div class="fallback-table"></div><div class="fallback-person"><span></span></div><div class="fallback-book"></div></div>
+              <div class="scene-bubble" id="hero-bubble" aria-live="polite">今天想学点什么？</div>
+              <button type="button" class="scene-hint" id="wave-button">和小伙伴打招呼</button>
+            </div>
+          </div>
+        </section>
+
+        <section class="story section-shell" id="how" aria-labelledby="story-title">
+          <div class="section-heading"><h2 id="story-title">跟着视频，<br /><em>把英语慢慢学进去。</em></h2><p>看字幕、查词、做收藏，都留在同一个观看过程里。</p></div>
+          <div class="journey" aria-label="三步学习过程">
+            <div class="journey-track" aria-hidden="true"><svg viewBox="0 0 1000 120" preserveAspectRatio="none"><path d="M0 62 C180 -10 240 130 430 62 S700 -5 1000 62" /></svg></div>
+            <article class="step step-one"><div class="step-object object-video" aria-hidden="true"><div class="object-screen"><span class="object-play">▶</span></div><div class="object-stand"></div></div><span class="step-index">01</span><h3>打开带字幕的视频</h3><p>在 YouTube 长视频旁看字幕与双语翻译。</p></article>
+            <article class="step step-two"><div class="step-object object-ideas" aria-hidden="true"><div class="idea-slip idea-slip-one">word</div><div class="idea-slip idea-slip-two">phrase</div></div><span class="step-index">02</span><h3>点词看清楚用法</h3><p>查看释义、音标、发音和固定搭配。</p></article>
+            <article class="step step-three"><div class="step-object object-notebook" aria-hidden="true"><div class="book-cover"><div class="book-line"></div><div class="book-line short"></div><div class="book-line"></div></div></div><span class="step-index">03</span><h3>分类收藏到 Notes</h3><p>生词与精彩表达分开保存，留住视频语境。</p></article>
+          </div>
+        </section>
+
+        <section class="demo-wrap" id="demo" aria-labelledby="demo-title"><div class="demo section-shell">
+          <div class="demo-copy"><h2 id="demo-title">看见不懂的，<br /><em>顺手就收好。</em></h2><p>从视频字幕里点开一个词，再把值得留下的表达收藏到 Notes。</p><div class="demo-disclaimer">流程示意，不连接真实 YouTube 或 AI</div><button id="demo-start" type="button" class="button button-primary">开始演示</button></div>
+          <div class="demo-panel"><div class="demo-panel-top">小小学习工坊</div><div class="demo-stage"><div class="demo-canvas" id="demo-canvas" aria-hidden="true"></div><div class="scene-fallback" aria-hidden="true"><div class="fallback-sun"></div><div class="fallback-monitor"><div class="fallback-play">▶</div></div><div class="fallback-table"></div><div class="fallback-person"><span></span></div><div class="fallback-book"></div></div><div class="demo-status" id="demo-status" aria-live="polite">准备好了，点「开始演示」</div></div><div class="demo-panel-bottom"><div class="demo-video-label"><span class="video-mini-icon">▶</span><span><strong>如何建立一个新习惯 · 示例视频</strong></span></div><button type="button" id="example-note" class="note-link">查看示例 Notes</button></div></div>
+        </div></section>
+
+        <section class="closing section-shell" aria-labelledby="closing-title"><div class="closing-ornament" aria-hidden="true"><span class="ornament-head"></span><span class="ornament-hair"></span><span class="ornament-bun left"></span><span class="ornament-bun right"></span><span class="ornament-body"></span><span class="ornament-book"></span></div><div class="closing-copy"><h2 id="closing-title">下一次打开 YouTube，<br /><em>也许就是下一次<br class="mobile-break" />进步的开始。</em></h2><button type="button" class="button button-primary github-action">查看 GitHub 项目</button></div></section>
+      </main>
+      <footer class="site-footer section-shell"><span>YouTube Digest Notes</span></footer>
+      <dialog id="note-dialog" class="note-dialog" aria-labelledby="note-dialog-title"><button type="button" class="dialog-close" id="dialog-close" aria-label="关闭示例笔记">×</button><h2 id="note-dialog-title">示例 Notes</h2><p class="dialog-sub">原创示例，非真实视频内容</p><div class="note-rule"></div><p><strong>单词</strong> consistency · 持续性</p><p><strong>精彩表达</strong> Start with a step so small that it feels easy.</p><p><strong>原句理解</strong> 从容易做到的一小步开始。</p></dialog>
+      <div id="toast" class="toast" role="status" aria-live="polite"></div>
+    </div>
+  </body>
+</html>
